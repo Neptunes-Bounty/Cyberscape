@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUREX Rescue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="ui-panel">
+            <div class="controls">
+                <button id="pauseBtn">Pause</button>
+                <button id="resumeBtn" style="display:none;">Resume</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+            <p class="objective">Objective: Collect Keys (Magenta), use them at the Central Hub (White) to decrypt Shards, and deliver them to the Base Station (Cyan) to restore System Health.</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

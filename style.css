@@ -1,0 +1,56 @@
+body {
+    background-color: #0d0d0d;
+    color: #00ff41;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-container {
+    text-align: center;
+}
+
+canvas {
+    background-color: #000000;
+    border: 2px solid #00ff41;
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.5);
+}
+
+.ui-panel {
+    max-width: 800px; /* Matchiing canvas width */
+    margin-top: 15px;
+}
+
+.controls {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: transparent;
+    color: #00ff41;
+    border: 1px solid #00ff41;
+    padding: 10px 20px;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+}
+
+button:hover, button:focus {
+    background-color: #00ff41;
+    color: #000;
+    box-shadow: 0 0 10px #00ff41;
+}
+
+.objective {
+    font-size: 14px;
+    color: #aaa;
+    line-height: 1.5;
+}
